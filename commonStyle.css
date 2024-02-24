@@ -3,7 +3,7 @@ body {
   height: 100%; /* Asegúrate de que el html y el body ocupen toda la altura */
   margin: 0; /* Elimina cualquier margen por defecto */
   padding: 0; /* Elimina cualquier padding por defecto */
-  background-color: #ebe9f1;
+  background-color: rgb(203, 171, 168);
 }
 
 input {
@@ -31,11 +31,12 @@ input {
     -ms-transition-duration: .4s ;
     -o-transition-duration: .4s ;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    background-color: #7a4b44;
 }
   
    
 .myButton:hover {
-  background-color:  #3d793f;; /* Un azul ligeramente más oscuro para el hover */
+  background-color:  #703127;; /* Un azul ligeramente más oscuro para el hover */
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
 }
 
