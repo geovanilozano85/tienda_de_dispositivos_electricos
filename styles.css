@@ -1,0 +1,142 @@
+/* Asegúrate de enlazar correctamente tu CSS en tu HTML usando la etiqueta <link> */
+/* Estilos generales */
+
+
+
+
+
+
+/* Clases para elementos individuales como título, login e imagen */
+
+.ingresar {
+  
+    /* Asegúrate de que el contenedor .login esté centrado en el contenedor de grid */
+    display: grid; /* Si .login debe ser también un contenedor de grid */
+    place-items: center; /* Esto centrará el contenido tanto horizontal como verticalmente */
+    height: 100%; /* Esto se asegura de que .login tome toda la altura de su celda de grid */
+    gap:20px
+
+}
+
+.ingresar h1 {
+    margin-top: 100%; /* Esto asegura que no haya margen extra en la parte superior */
+    display: grid; /* Si .login debe ser también un contenedor de grid */
+    place-items: center; /* Esto centrará el contenido tanto horizontal como verticalmente */
+    height: 100%; /* Esto se asegura de que .login tome toda la altura de su celda de grid */
+    margin-left: 4%;
+}
+
+
+.imagen img {
+  width: 100%;
+   height: 90vh;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+/****************************************************************/
+/**************************************************************************/
+/********************login.html********************************/
+
+.wrapper {
+    
+  position: fixed; /* Posiciónalo encima del contenido existente */
+  top: 50%; /* Centra verticalmente */
+  left: 55%; /* Centra horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta la posición de manera precisa */
+  z-index: 1000; /* Asegúrate de que esté encima del contenido existente */
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Ancho fijo */
+  max-width: 90%; /* Pero que no sea más ancho que el 90% del viewport */
+  height: auto; /* Cambia esto para que la altura se ajuste al contenido */
+  max-height: 40vh; /* O el porcentaje que prefieras para la altura máxima */
+  overflow: auto; /* Asegura que todo el contenido sea accesible con scroll */
+ 
+}
+
+.wrapper form h1{
+  display: flex;
+  justify-content: center;
+}    
+
+
+
+
+/* .container_1 {
+   
+  border-radius: 6px;
+  background-color: #fff;
+  margin: 30px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+.formulario-clientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 800px; 
+}
+ */
+/* .titulo-gestion-clientes {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px; 
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 48%; 
+}
+
+.form-group {
+  margin-bottom: 10px; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="address"],
+input[type="number"],
+input[type="gender"],
+input[type="age"],
+input[type="nationality"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+ */

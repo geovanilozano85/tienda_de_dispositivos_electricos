@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Tienda de dispositivos eléctricos</title>
+
+    <link rel="stylesheet" href="/commonStyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/imagen2.jpg" />
+  </head>
+
+  <body>
+    <section class="main_container">
+      <div class="ingresar">
+        <h1>Tienda Online</h1>
+        <a href="login.html"><button class="myButton" type="submit">Login</button></a>
+      </div>
+
+      <div class="imagen">
+        <img src="/imagen2.jpg" alt="" />
+
+        <div class="wrapper">
+          <form onsubmit="event.preventDefault(); login();">
+            <h1>Login</h1>
+            <div class="input-box">
+              <input id="user" type="text" placeholder="Usuario" />
+            </div>
+            <div class="inputbox">
+              <input id="password" type="password" placeholder="Contraseña" />
+            </div>
+            <button class="myButton" type="submit" class="boton-entrar">Entrar</button>
+            <!-- Cambia a type="submit" -->
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

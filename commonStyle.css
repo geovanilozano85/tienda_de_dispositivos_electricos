@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%; /* Asegúrate de que el html y el body ocupen toda la altura */
+  margin: 0; /* Elimina cualquier margen por defecto */
+  padding: 0; /* Elimina cualquier padding por defecto */
+  background-color: #ebe9f1;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.myButton{
+    /*Estilosparaelbotóndeingresar*/background-color: #4CAF50;
+    /*Colordefondo*/color: white;
+    /*Colordeltexto*/border: none;
+    /*Sinborde*/padding: 10px 20px;
+    /*Relleno*/text-align: center;
+    /*Alineacióndeltexto*/text-decoration: none;
+    /*Sindecoracióndetexto*/display: inline-block;
+    /*Displayenlínea*/font-size: 16px;
+    /*Tamañodeltexto*/margin: 4px 2px;
+    /*Margenalrededordelbotón*/cursor: pointer;
+    transition-duration: .4s ;
+    -webkit-transition-duration: .4s ;
+    -moz-transition-duration: .4s ;
+    -ms-transition-duration: .4s ;
+    -o-transition-duration: .4s ;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+  
+   
+.myButton:hover {
+  background-color:  #3d793f;; /* Un azul ligeramente más oscuro para el hover */
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    border-radius: 10px;
+    gap: 0;
+    background-color: #ebe9f1;
+    gap: 30px;
+   
+    align-items: start; /* Centra verticalmente los elementos de los grid items */
+
+   }
+
+.main_container > div{
+   
+    border-radius: 6px;
+    background-color: #fff;
+    grid-template-rows: 0.5fr; 
+    margin: 30px;
+    height: 90vh;
+
+    
+}
